@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Controle de Salários</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main>
+        <section>
+            <h1>Processamento de salarios</h1>
+            <form action="salvar.php" method="get" onsubmit="return go()">
+                <label for="qf">Qual é a quantidade de funcionários?</label>
+                <input type="number" name="fun" id="fun" min="1" max="200" value="1">
+                <input type="submit" value="Iniciar" id="fin">
+                <p id="res"></p>
+            </form>
+        </section>
+    </main>
+    <script>
+        function go() {
+            let resp = document.getElementById("res")
+            let qt = Number(document.getElementById("fun").value)
+            let n = qt 
+
+            return false
+        }
+    </script>
 </body>
 </html>
