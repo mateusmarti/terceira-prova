@@ -29,7 +29,7 @@ let resp = document.getElementById("res")
                     }  
                     c++
                 }  
-                res.innerHTML = `A empresa, ao todo gasta R$${s.toFixed(2)} por mês.<br>A média de salário dos funcionários é R$${med.toFixed(2)}<br>O maior salário da empresa é R$${mai.toFixed(2)}<br>O menor salário da empresa R$${men.toFixed(2)}`
+                res.innerHTML = `A empresa, ao todo gasta R$${s.toFixed(2)} por mês.<br>A média de salário dos funcionários é R$${med.toFixed(2)}<br>O maior salário da empresa é R$${mai.toFixed(2)}<br>O menor salário da empresa é R$${men.toFixed(2)}`
                 return false  
             }
         
